@@ -125,6 +125,8 @@ header nav a:hover {
     padding-left: 2px;
 }
 
+
+
 .searchs-form input {
     width: 200px;
     border: 1px solid var(--main-bg-color);
@@ -132,7 +134,11 @@ header nav a:hover {
     border-right: none;
     font-size: 17px;
     font-weight: 700;
-    text-align: center;
+    padding-left: 10px;
+}
+
+.searchs-form input::placeholder{
+    color: black;
 }
 
 .searchs-form input:focus-visible {
@@ -246,7 +252,7 @@ header nav a:hover {
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
-    height: 190px;
+    /*height: 190px;*/
 }
 
 .hebergements-cards .card-content {
@@ -256,7 +262,8 @@ header nav a:hover {
 
 .hebergements-cards img {
     width: 100%;
-    height: 58%;
+    /*height: 58%;*/
+    height: 110px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -348,7 +355,7 @@ header nav a:hover {
     padding: 0px;
     display: flex;
     flex-direction: column;
-    height: 440px;
+    /*height: 440px;*/
 }
 
 .activities-cards a {
@@ -357,7 +364,8 @@ header nav a:hover {
 
 .activities-cards img {
     width: 100%;
-    height: 95%;
+    /*height: 100%;*/
+    height: 388px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover;
@@ -366,8 +374,10 @@ header nav a:hover {
 .activities-cards .card-title {
     display: flex;
     align-items: center;
-    height: 5%;
+    /*height: 5%;*/
+    height: 40px;
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 /******* footer ******/
@@ -397,6 +407,10 @@ footer ul {
 footer li {
     padding-left: 20px;
     padding-bottom: 15px;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 
@@ -457,18 +471,21 @@ footer li {
 
     /********* Activities ***********/
 
+    /*
     .activities-cards .card {
         height: 250px;
     }
 
+    */
+
 
     .activities-cards img {
-        height: 100%;
+        height: 180px;
     }
 
-    .activities-cards .card-title {
+    /*.activities-cards .card-title {
         height: 50px;
-    }
+    }*/
 
 
 
